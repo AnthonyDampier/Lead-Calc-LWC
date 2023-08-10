@@ -5,7 +5,7 @@ export default class LeadCalcLWC extends LightningElement {
   Score = 10;
 
   get getScore(){
-    return "p" + this.Score;
+    return this.Score;
   } 
 
   get constructClass(){
