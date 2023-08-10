@@ -1,29 +1,23 @@
 import { LightningElement, track } from 'lwc';
-import LeadCalcCSS from './leadCalcLWC.css';
 
 export default class LeadCalcLWC extends LightningElement {
+  // Total Interest Score is 1-50. 
+  Score = 60;
 
-    renderedCallback() {
-        loadScript(this, jQueryUrl + '/jquery-3.5.1.min.js')
-          .then(() => {
-            console.log(`jQuery loaded.`);
-          })
-          .catch((error) => {
-            console.log(`jQuery loading was failed.`);
-          });
-      }
+  get getScore (){
+    let progressCircle = this.template.querySelector('[data-id="progress-cirle"]');
+      if(progressCircle){
+        this.template.querySelector('[data-id="progress-cirle"]').className=`progress-circle p${this.Score}`;
+        console.log("setProgressCircleClass(): "+ progressCircle);
+      }        
+    return this.Score;
+  }
 
-    @track Score = 85;
+  get getScore(){
+    return "p" + this.Score;
+  } 
 
-    getScore = `--percent: "${Score}";`;
-
-    static stylesheets = [
-        LeadCalcCSS,
-        `--percent: 25`
-    ];
-}
-
-// subclass components don't inherit stylesheet. To address this issue to extend the Parent's stylesheet to the child
-class SubClass extends LeadCalcLWC {
-    static stylesheets = LeadCalcCSS.stylesheets;
+  get constructClass(){
+    return "gauge four rischio1" + " " + "p"+this.Score;
+  }
 }

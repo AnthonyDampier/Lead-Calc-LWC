@@ -6,19 +6,28 @@
   @last modified by  : Anthony.d@digitalmass.com
 -->
 <template>
-    <lightning-card class="card" title="Lead Calc" icon-name="custom:custom12">
-            <div class="percent">
-              <svg>
-                <circle cx="105" cy="105" r="100"></circle>
-                <!-- provide a score from record to change display -->
-                <circle cx="105" cy="105" r="100" ></circle>
-              </svg>
-              <div class="number">
-                <h3>{Score}</h3>
-              </div>
-            </div>
-            <div class="title">
-              <h2>Total Interest Score</h2>
-            </div>
-    </lightning-card>
+    <div data-id="progress-cirle" class={getClassScore}>
+      <!-- class="progress-circle p10" -->
+      <span>{getScore}%</span>
+      <div class="left-half-clipper">
+         <div class="first50-bar"></div>
+         <div class="value-bar"></div>
+      </div>
+   </div>
+
+   <div class="gauge-wrapper">
+    <div class={constructClass}>
+      <div class="slice-colors">
+        <div class="st slice-item"></div>
+        <div class="st slice-item"></div>
+        <div class="st slice-item"></div>
+        <div class="st slice-item"></div>
+      </div>
+      <div class="needle"></div>
+      <div class="gauge-center">
+        <div class="label">RISK</div>
+        <div class="number">HIGH</div>
+      </div>    
+    </div>
+  </div>
 </template>
