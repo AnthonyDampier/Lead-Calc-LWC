@@ -274,11 +274,331 @@ h1 {text-align:center;}
 }
 
 
-/* needle movement */
-.four.rischio1 .needle {animation: fourspeed1 2s 1 both; animation-delay: 1s; display:block;}
+/* needle movement calling animation*/
+.four.rischio1.p50 .needle {animation: fourspeed50 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p49 .needle {animation: fourspeed49 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p48 .needle {animation: fourspeed48 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p47 .needle {animation: fourspeed47 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p46 .needle {animation: fourspeed46 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p45 .needle {animation: fourspeed45 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p44 .needle {animation: fourspeed44 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p43 .needle {animation: fourspeed43 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p42 .needle {animation: fourspeed42 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p41 .needle {animation: fourspeed41 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p40 .needle {animation: fourspeed40 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p39 .needle {animation: fourspeed39 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p38 .needle {animation: fourspeed38 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p37 .needle {animation: fourspeed37 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p36 .needle {animation: fourspeed36 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p35 .needle {animation: fourspeed35 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p34 .needle {animation: fourspeed34 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p33 .needle {animation: fourspeed33 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p32 .needle {animation: fourspeed32 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p31 .needle {animation: fourspeed31 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p30 .needle {animation: fourspeed30 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p29 .needle {animation: fourspeed29 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p28 .needle {animation: fourspeed28 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p27 .needle {animation: fourspeed27 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p26 .needle {animation: fourspeed26 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p25 .needle {animation: fourspeed25 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p24 .needle {animation: fourspeed24 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p23 .needle {animation: fourspeed23 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p22 .needle {animation: fourspeed22 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p21 .needle {animation: fourspeed21 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p20 .needle {animation: fourspeed20 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p19 .needle {animation: fourspeed19 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p18 .needle {animation: fourspeed18 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p17 .needle {animation: fourspeed17 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p16 .needle {animation: fourspeed16 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p15 .needle {animation: fourspeed15 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p14 .needle {animation: fourspeed14 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p13 .needle {animation: fourspeed13 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p12 .needle {animation: fourspeed12 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p11 .needle {animation: fourspeed11 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p10 .needle {animation: fourspeed10 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p9 .needle {animation: fourspeed9 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p8 .needle {animation: fourspeed8 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p7 .needle {animation: fourspeed7 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p6 .needle {animation: fourspeed6 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p5 .needle {animation: fourspeed5 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p4 .needle {animation: fourspeed4 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p3 .needle {animation: fourspeed3 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p2 .needle {animation: fourspeed2 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p1 .needle {animation: fourspeed1 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1.p1 .needle {animation: fourspeed0 2s 1 both; animation-delay: 1s; display:block;}
 
-/* needle movement */
-@keyframes fourspeed1 {
+
+/* needle movement transformation */
+@keyframes fourspeed50 {
 	0% {transform: rotate(0);}
   100% {transform: rotate(180deg);}
 }
+
+@keyframes fourspeed49 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(176deg);}
+}
+
+@keyframes fourspeed48 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(173deg);}
+}
+
+@keyframes fourspeed47 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(169deg);}
+}
+
+@keyframes fourspeed46 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(166deg);}
+}
+
+@keyframes fourspeed45 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(162deg);}
+}
+
+@keyframes fourspeed44 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(158deg);}
+}
+
+@keyframes fourspeed43 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(155deg);}
+}
+
+@keyframes fourspeed42 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(151deg);}
+}
+
+@keyframes fourspeed41 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(148deg);}
+}
+
+@keyframes fourspeed40 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(144deg);}
+}
+
+@keyframes fourspeed39 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(140deg);}
+}
+
+
+@keyframes fourspeed38 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(137deg);}
+}
+
+
+@keyframes fourspeed37 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(133deg);}
+}
+
+
+@keyframes fourspeed36 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(130deg);}
+}
+
+
+@keyframes fourspeed35 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(126deg);}
+}
+
+
+@keyframes fourspeed34 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(122deg);}
+}
+
+
+@keyframes fourspeed33 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(119deg);}
+}
+
+
+@keyframes fourspeed32 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(115deg);}
+}
+
+
+@keyframes fourspeed31 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(111deg);}
+}
+
+@keyframes fourspeed30 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(108deg);}
+}
+
+
+@keyframes fourspeed29 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(104deg);}
+}
+
+
+@keyframes fourspeed28 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(100deg);}
+}
+
+
+@keyframes fourspeed27 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(97deg);}
+}
+
+
+@keyframes fourspeed26 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(94deg);}
+}
+
+
+@keyframes fourspeed25 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(90deg);}
+}
+
+
+@keyframes fourspeed24 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(86deg);}
+}
+
+
+@keyframes fourspeed23 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(83deg);}
+}
+
+
+@keyframes fourspeed22 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(79deg);}
+}
+
+
+@keyframes fourspeed21 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(76deg);}
+}
+
+@keyframes fourspeed20 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(72deg);}
+}
+
+@keyframes fourspeed19 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(68deg);}
+}
+
+@keyframes fourspeed18 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(65deg);}
+}
+
+@keyframes fourspeed17 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(61deg);}
+}
+
+@keyframes fourspeed16 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(58deg);}
+}
+
+@keyframes fourspeed15 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(54deg);}
+}
+
+@keyframes fourspeed14 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(50deg);}
+}
+
+@keyframes fourspeed13 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(46deg);}
+}
+
+@keyframes fourspeed12 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(43deg);}
+}
+
+@keyframes fourspeed11 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(40deg);}
+}
+
+@keyframes fourspeed10 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(36deg);}
+}
+
+@keyframes fourspeed9 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(32deg);}
+}
+
+@keyframes fourspeed8 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(29deg);}
+}
+
+@keyframes fourspeed7 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(25deg);}
+}
+
+@keyframes fourspeed6 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(21deg);}
+}
+
+@keyframes fourspeed5 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(18deg);}
+}
+
+@keyframes fourspeed4 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(14deg);}
+}
+
+@keyframes fourspeed3 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(11deg);}
+}
+
+@keyframes fourspeed2 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(7deg);}
+}
+
+@keyframes fourspeed1 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(4deg);}
+}
+
+@keyframes fourspeed0 {
+	0% {transform: rotate(0);}
+  100% {transform: rotate(2deg);}
+}
+
+
