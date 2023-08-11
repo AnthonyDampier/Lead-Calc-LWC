@@ -1,4 +1,4 @@
-import { LightningElement, track } from 'lwc';
+import { LightningElement } from 'lwc';
 
 export default class LeadCalcLWC extends LightningElement {
   // Total Interest Score is 1-50. 
@@ -11,4 +11,7 @@ export default class LeadCalcLWC extends LightningElement {
   get constructClass(){
     return "gauge four rischio1" + " " + "p"+this.Score;
   }
+  
+  // Radial Progress Bar
+
 }
