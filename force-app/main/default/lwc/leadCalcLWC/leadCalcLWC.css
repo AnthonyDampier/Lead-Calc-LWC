@@ -1,14 +1,71 @@
 /* Radial Progression Bar */
+.flex-wrapper {
+  flex-flow: row nowrap;
+  margin: 0 auto;
+}
+
+.radial-title {
+  font-size: 20px;
+}
+
+.single-chart {
+  width: 100%;
+  display: flexbox;
+  justify-content: space-around;
+}
+
+.circular-chart {
+  display: block;
+  margin: 0px auto;
+  width: 70%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #d1d1d1;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.50);
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.green .circle {
+  stroke: #7ad430;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+
+a {
+  font-size: 26px;
+}
+/* Radial Progression Bar */
 
 /* Gauge */
-
 body {height: 100vh; font-family: Arial; text-align:center; font-family: Arial, Helvetica, sans-serif;}
 
 h1 {text-align:center;}
 
 .gauge-wrapper {
   display: inline-block;
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 15px 15px;
 }
@@ -21,6 +78,7 @@ h1 {text-align:center;}
   border-radius: 100px 100px 0 0!important;
   position: relative;
   overflow: hidden;
+  justify-content: space-around;
 }
 
 .gauge.min-scaled {
@@ -422,6 +480,4 @@ h1 {text-align:center;}
 	0% {transform: rotate(0);}
   100% {transform: rotate(0deg);}
 }
-
-
-
+/* Gauge */
