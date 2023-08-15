@@ -52,16 +52,13 @@
   text-anchor: middle;
 }
 
-
-a {
-  font-size: 26px;
-}
+h1 {text-align:center;}
 /* Radial Progression Bar */
 
 /* Gauge */
-body {height: 100vh; font-family: Arial; text-align:center; font-family: Arial, Helvetica, sans-serif;}
+/* body {height: 100vh; font-family: Arial; text-align:center; font-family: Arial, Helvetica, sans-serif;}
 
-h1 {text-align:center;}
+
 
 .gauge-wrapper {
   display: inline-block;
@@ -137,25 +134,26 @@ h1 {text-align:center;}
 .four .slice-colors .st.slice-item:nth-child(2) {
   /* border-top: 50px #f1c40f solid;
   border-right: 50px #f1c40f solid;
-  background-color:#1eaa59; */
+  background-color:#1eaa59; *//*
   border-top: 50px #e67e22 solid;
   border-right: 50px #e67e22 solid;
   background-color:#E84C3D;
 }
-
+*//*
 .four .slice-colors .st.slice-item:nth-child(4) {
   left:50%;
-  /* border-bottom: 50px #E84C3D solid;
+  *//* 
+  border-bottom: 50px #E84C3D solid;
   border-right: 50px #E84C3D solid;
-  background-color:#e67e22; */
+  background-color:#e67e22; *//*
   border-bottom: 50px #1eaa59 solid;
   border-right: 50px #1eaa59 solid;
   background-color:#f1c40f;
-}
+} */
 
 
 /* needle movement calling animation*/
-.four.rischio1.p50 .needle {animation: fourspeed50 2s 1 both; animation-delay: 1s; display:block;}
+/* .four.rischio1.p50 .needle {animation: fourspeed50 2s 1 both; animation-delay: 1s; display:block;}
 .four.rischio1.p49 .needle {animation: fourspeed49 2s 1 both; animation-delay: 1s; display:block;}
 .four.rischio1.p48 .needle {animation: fourspeed48 2s 1 both; animation-delay: 1s; display:block;}
 .four.rischio1.p47 .needle {animation: fourspeed47 2s 1 both; animation-delay: 1s; display:block;}
@@ -206,9 +204,10 @@ h1 {text-align:center;}
 .four.rischio1.p2 .needle {animation: fourspeed2 2s 1 both; animation-delay: 1s; display:block;}
 .four.rischio1.p1 .needle {animation: fourspeed1 2s 1 both; animation-delay: 1s; display:block;}
 .four.rischio1.p0 .needle {animation: fourspeed0 2s 1 both; animation-delay: 1s; display:block;}
-
+*/
 
 /* needle movement transformation */
+/*
 @keyframes fourspeed50 {
 	0% {transform: rotate(0);}
   100% {transform: rotate(180deg);}
@@ -479,5 +478,5 @@ h1 {text-align:center;}
 @keyframes fourspeed0 {
 	0% {transform: rotate(0);}
   100% {transform: rotate(0deg);}
-}
+} */
 /* Gauge */
